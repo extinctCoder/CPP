@@ -102,22 +102,19 @@ o World
 C++ does not recognize the end of the line as a
 terminator. For this reason, it does not matter
 where you put a statement in a line. For example −
-1. x = y;
-2. y = y + 1;
-3. add(x, y);
+```
+x = y;
+y = y + 1;
+add(x, y);
+```
 is the same as
-1. x = y; y = y + 1; add(x, y);
+```
+x = y; y = y + 1; add(x, y);
+```
 ## C++ IDENTIFIERS
-A C++ identifier is a name used to identify a
-variable, function, class, module, or any other userdefined item. An identifier starts with a letter A to
-Z or a to z or an underscore (_) followed by zero or
-more letters, underscores, and digits (0 to 9).
-C++ does not allow punctuation characters such as
-@, $, and % within identifiers. C++ is a casesensitive programming language. Thus, Manpower
-and manpower are two different identifiers in C++.
-Here are some examples of acceptable identifiers −
-1. mohd zara abc move_name a_123
-2. myname50 _temp j a23b9 retVal
+A C++ identifier is a name used to identify a variable, function, class, module, or any other userdefined item. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores, and digits (0 to 9). C++ does not allow punctuation characters such as @, $, and % within identifiers. C++ is a casesensitive programming language. Thus, Manpower and manpower are two different identifiers in C++. Here are some examples of acceptable identifiers −
+* mohd zara abc move_name a_123
+* myname50 _temp j a23b9 retVal
 ## C++ KEYWORDS
 The following list shows the reserved words in C++.
 These reserved words may not be used as constant
@@ -201,15 +198,7 @@ All the compilers do not support trigraphs and they
 are not advised to be used because of their
 confusing nature.
 ## WHITESPACE IN C++
-A line containing only whitespace, possibly with a
-comment, is known as a blank line, and C++
-compiler totally ignores it.
-Whitespace is the term used in C++ to describe
-blanks, tabs, newline characters and comments.
-Whitespace separates one part of a statement from
-another and enables the compiler to identify where
-one element in a statement, such as int, ends and
-the next element begins.
+A line containing only whitespace, possibly with a comment, is known as a blank line, and C++ compiler totally ignores it. Whitespace is the term used in C++ to describe blanks, tabs, newline characters and comments. Whitespace separates one part of a statement from another and enables the compiler to identify where one element in a statement, such as int, ends and the next element begins.
 ### STATEMENT 1
 ```cpp
 int age;
@@ -219,5 +208,4 @@ In the above statement there must be at least one whitespace character (usually 
 ```cpp
 int fruit = apples + oranges; // Get the tota
 ```
-* fruit In the above statement 
-* no whitespace characters are necessary between fruit and =, or between = and apples, although you are free to include some if you wish for readability purpose.
+fruit In the above statement no whitespace characters are necessary between fruit and =, or between = and apples, although you are free to include some if you wish for readability purpose.

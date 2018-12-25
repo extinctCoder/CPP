@@ -217,7 +217,7 @@ int age;
 In the above statement there must be at least one whitespace character (usually a space) between int and age for the compiler to be able to distinguish them.
 ### STATEMENT 2
 ```cpp
-fruit = apples + oranges; // Get the tota
+int fruit = apples + oranges; // Get the tota
 ```
 * fruit In the above statement 
 * no whitespace characters are necessary between fruit and =, or between = and apples, although you are free to include some if you wish for readability purpose.

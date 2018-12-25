@@ -21,7 +21,7 @@ Try following example using Try it option available
 at the top right corner of the below sample code
 box −
 ```cpp
-# include <iostream>
+#include <iostream>
 using namespace std;
 int main() {
     cout << "Hello World";

@@ -26,26 +26,6 @@ g++ - v
 Thread model: posix gcc version 4.1.2 20080704(Red Hat 4.1.2 - 46)
 * If GCC is not installed, then you will have to install it yourself using the detailed instructions available at https://gcc.gnu.org/install/
 ### MAC OS X INSTALLATION
-If you use Mac OS X, the easiest way to obtain GCC
-is to download the Xcode development
-environment from Apple's website and follow the
-simple installation instructions.
-Xcode is currently available at
-developer.apple.com/technologies/tools/.
+If you use Mac OS X, the easiest way to obtain GCC is to download the Xcode development environment from Apple's website and follow the simple installation instructions. Xcode is currently available at developer.apple.com/technologies/tools/.
 ### WINDOWS INSTALLATION
-To install GCC at Windows you need to install
-MinGW. To install MinGW, go to the MinGW
-homepage, www.mingw.org, and follow the link to
-the MinGW download page. Download the latest
-version of the MinGW installation program which
-should be named MinGW-<version>.exe.
-While installing MinGW, at a minimum, you must
-install gcc-core, gcc-g++, binutils, and the MinGW
-runtime, but you may wish to install more.
-Add the bin subdirectory of your MinGW
-installation to your PATH environment variable so
-that you can specify these tools on the command
-line by their simple names.
-When the installation is complete, you will be able
-to run gcc, g++, ar, ranlib, dlltool, and several other
-GNU tools from the Windows command line
+To install GCC at Windows you need to install MinGW. To install MinGW, go to the MinGW homepage, www.mingw.org, and follow the link to the MinGW download page. Download the latest version of the MinGW installation program which should be named MinGW-<version>.exe. While installing MinGW, at a minimum, you must install gcc-core, gcc-g++, binutils, and the MinGW runtime, but you may wish to install more. Add the bin subdirectory of your MinGW installation to your PATH environment variable so that you can specify these tools on the command line by their simple names. When the installation is complete, you will be able to run gcc, g++, ar, ranlib, dlltool, and several other GNU tools from the Windows command line
